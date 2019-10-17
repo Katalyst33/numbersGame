@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katalyst33/numbersGame.git"
+  },
+  "keywords": [
+    "server",
+    "fior",
+    "numbers",
+    "game"
+  ],
+  "author": "xam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katalyst33/numbersGame/issues"
+  },
+  "homepage": "https://github.com/Katalyst33/numbersGame#readme"
+}

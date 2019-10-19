@@ -4,7 +4,8 @@
   "description": "server for game",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/Katalyst33/numbersGame/issues"
   },
-  "homepage": "https://github.com/Katalyst33/numbersGame#readme"
+  "homepage": "https://github.com/Katalyst33/numbersGame#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.5",
+    "monk": "^7.1.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "shortid": "^2.2.15"
+  }
 }
